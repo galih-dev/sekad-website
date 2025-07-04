@@ -1,0 +1,23 @@
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    header, footer {
+        padding: 15px;
+    }
+}
+
+
+
